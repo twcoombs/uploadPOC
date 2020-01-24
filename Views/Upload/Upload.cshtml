@@ -13,10 +13,24 @@
     encoding. Otherwise file will not be sent.
 *@
 <form method="post" enctype="multipart/form-data">
+    <label for="filetype">Choose Template File Type</label>
+
+    <select name="filetype">
+        <option value="excel">Excel</option>
+        <option value="text">Text</option>
+        <option value="xml">Xml</option>
+        <option value="csv">Csv</option>
+    </select/>
+
+    <br />
+
+    <label for="file">Choose file to upload</label>
     <input type="file" name="file" />
+
+    <br />
+
     <button type="submit">Upload</button>
 </form>
-
 @*
     If upload succeeded we will show nice message to user.
 *@
