@@ -1,0 +1,23 @@
+﻿ASA_Key	ASA_Name	ASA_Description	ASA_Acronym	ASA_Owner	ASA_LastUpdate_Date	ASA_Primary_Goal_Key
+4	Governance	Information Governance is the overall management of the availability, usability, integrity and security of data and information used in an enterprise.
+ It is the exercise of authority, control and shared decision making over the management of Information Assets	DG	1	2019-07-21 21:43:42.217	1
+6	Data Quality Management	Data quality management refers to a business principle that requires a combination of the right people, processes and technologies all with the common goal of improving the measures of data quality that matter most to an enterprise organisation
+	DQM	1	2019-05-23 23:16:42.740	3
+7	Meta-data Management	Metadata management is the administration of data that describes other data. It involves establishing policies and processes that ensure information can be integrated, accessed, shared, linked, analyzed and maintained to best effect across the organisation
+	MM	1	2019-05-23 23:16:50.423	4
+8	Master Data Management	Master data management  is a method used to define and manage the critical data of an organisation to provide, with data integration, a single point of reference. The data that is mastered may include reference data- the set of permissible values, and the analytical data that supports decision making.
+	MDM	1	2019-05-23 23:16:56.280	6
+9	Data Literacy	Data literacy is the ability to derive meaningful information from data, just as literacy in general is the ability to derive information from the written word.
+	DL	1	2019-07-21 21:44:48.023	1
+10	Enterprise Data Integration	Enterprise data integration is the consolidation of business information or datasets from various sources, and sometimes various formats, and then compiling them into one accessible interface
+	EDI	2	2019-05-23 23:17:04.553	4
+11	Operations Management	Data operations management is the development, maintenance, and support of structured data to maximize the value of the data resources to the enterprise. Data operations management includes two sub-functions: database support and data technology management.
+	DOM	1	2019-07-21 06:28:18.180	4
+12	Document and Content Management	Document and content management provides a centralized hub where documents and other information are stored and from where they can be managed and distributed as and when needed.
+	DCM	1	2019-05-23 23:17:21.660	4
+13	Information Architecture	Information architecture is composed of models, policies, rules or standards that govern which data is collected, and how it is stored, arranged, integrated, and put to use in data systems. It also manages and documents how data is technically processed and presented into Information.	DA	1	2019-07-21 21:45:56.457	6
+14	Information Security
+	Information security refers to protective digital privacy measures that are applied to prevent unauthorized access to computers, databases, websites and information systems. Information security also protects data and information from corruption.
+	DS	3	2019-07-21 21:47:13.727	6
+16	Risk Management	Risk Management is the process of identifying, assessing and controlling organisational threats by applying risk management techniques to the control of its information assets.	DRM	1	2019-07-21 21:47:45.850	NULL
+17	Practice Evolution	Practice Evolution is the evolution of the Information Management Function within an Organistion and its effectiveness over time.	PE	1	2019-05-23 23:33:02.250	NULL
