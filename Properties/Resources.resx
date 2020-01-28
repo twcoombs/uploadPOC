@@ -120,7 +120,10 @@
   <data name="csvExtension" xml:space="preserve">
     <value>.csv</value>
   </data>
-  <data name="excelExtension" xml:space="preserve">
+  <data name="excelnewExtension" xml:space="preserve">
+    <value>.xlsx</value>
+  </data>
+  <data name="exceloldExtension" xml:space="preserve">
     <value>.xls</value>
   </data>
   <data name="textExtension" xml:space="preserve">

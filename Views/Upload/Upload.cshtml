@@ -3,7 +3,7 @@
     ViewData["Title"] = "Upload";
 }
 
-<h1>Create Data Ingestion Template From Existing File</h1>
+<h1>Step 1: Create Data Ingestion Template From Existing File</h1>
 
 <hr />
 
@@ -16,11 +16,12 @@
     <label for="filetype">Choose Template File Type</label>
 
     <select name="filetype">
-        <option value="excel">Excel</option>
+        <option value="excelold">Excel XLS</option>
+        <option value="excelnew">Excel XLSX</option>
         <option value="text">Text</option>
         <option value="xml">Xml</option>
         <option value="csv">Csv</option>
-    </select/>
+    </select>
 
     <br />
 
@@ -38,5 +39,12 @@
 {
     <div class="alert alert-success" style="margin-top:20px">
         @ViewBag.Message
+    </div>
+}
+
+@if (ViewBag.Link != null)
+{
+    <div class="alert alert-success" style="margin-top:20px">
+        Click Here To Move to Step 2: Define Meta-data <a href=@ViewBag.Link>@ViewBag.Link</a>
     </div>
 }

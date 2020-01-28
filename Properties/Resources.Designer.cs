@@ -70,11 +70,20 @@ namespace uploadPOC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .xlsx.
+        /// </summary>
+        internal static string excelnewExtension {
+            get {
+                return ResourceManager.GetString("excelnewExtension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .xls.
         /// </summary>
-        internal static string excelExtension {
+        internal static string exceloldExtension {
             get {
-                return ResourceManager.GetString("excelExtension", resourceCulture);
+                return ResourceManager.GetString("exceloldExtension", resourceCulture);
             }
         }
         

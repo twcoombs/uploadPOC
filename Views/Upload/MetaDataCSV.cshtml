@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Finalise Meta-data";
+}
+
+<h1>Step 2: Define Meta-data from Uploaded CSV</h1>
+
+@if (ViewBag.Message != null)
+{
+<div class="alert alert-success" style="margin-top:20px">
+    @ViewBag.Message
+</div>
+}
+
+@if (ViewBag.List != null)
+{
+<form method="post" action="/Upload/FinaliseDefinitions">
+    <fieldset>
+        <input type="text" value="Line">
+        <input type="text" value="Set">
+        <input type="text" value="Attribute">
+        <input type="text" value="Data Type">
+        <input type="text" value="Comments">
+    </fieldset>
+    <hr />
+
+    @for (var i = 0; i < ViewBag.List.Count; i++) {
+
+
+
+    <fieldset>
+        <input type="number" value="@i">
+        <input type="text" value="1">
+        <input type="text" value="@ViewBag.List[i]">
+        <select name="types">
+            <option value="String">String</option>
+            <option value="Integer">Integer</option>
+            <option value="Double">Double</option>
+            <option value="Date">Date</option>
+            <option value="DateTime">Date</option>
+        </select>
+        <input type="text" value="">
+    </fieldset>
+
+    <hr />
+    }
+
+    <button type="submit">Confirm Meta-data Definitions for Upload</button>
+
+</form>
+
+    <div class="alert alert-success" style="margin-top:20px">
+        @ViewBag.Message
+    </div>
+}
+
+
+
+

@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "UploadXLSX";
+}
+
+<h1>Step 2: Define Meta-data from Uploaded Excel Spreadsheet</h1>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success" style="margin-top:20px">
+        @ViewBag.Message
+    </div>
+}
+
+@if (ViewBag.ReadCell!= null)
+{
+    <div class="alert alert-success" style="margin-top:20px">
+        @ViewBag.ReadCell
+    </div>
+}
+
+
+
